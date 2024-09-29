@@ -1,0 +1,72 @@
+
+배호근@DESKTOP-I1JTJ60 MINGW64 ~
+$ ls
+'3D Objects'/
+ 4team/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+'시작 메뉴'@
+
+배호근@DESKTOP-I1JTJ60 MINGW64 ~
+$ cd Desktop
+
+배호근@DESKTOP-I1JTJ60 MINGW64 ~/Desktop
+$ git clone https://github.com/BaeHG/perfect.git
+Cloning into 'perfect'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+배호근@DESKTOP-I1JTJ60 MINGW64 ~/Desktop
+$ cd perfect
+
+배호근@DESKTOP-I1JTJ60 MINGW64 ~/Desktop/perfect (main)
+$ git add .
+
+배호근@DESKTOP-I1JTJ60 MINGW64 ~/Desktop/perfect (main)
+$ git commit -m '안녕하세요ㅎㅎ'
+[main 41ba892] 안녕하세요ㅎㅎ
+ 1 file changed, 1 insertion(+)
+ create mode 100644 "\353\260\260\355\230\270\352\267\274.js"
+
+배호근@DESKTOP-I1JTJ60 MINGW64 ~/Desktop/perfect (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 322 bytes | 322.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/BaeHG/perfect.git
+   4ff2bcf..41ba892  main -> main
+
+배호근@DESKTOP-I1JTJ60 MINGW64 ~/Desktop/perfect (main)
+$
