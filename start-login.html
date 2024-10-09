@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,15 +31,25 @@
          class="input-box" 
          placeholder="이메일을 입력해주세요" />
       </div>
+      <p class="invalid">잘못된 이메일 형식입니다.</p>
+
 
       <div class="input-pw">
         <label for="password">비밀번호</label>
-        <input type="password" id="password" class="input-box" placeholder="비밀번호를 입력해주세요" />
+        <input 
+        type="password" 
+        id="password" 
+        class="input-box" 
+        placeholder="비밀번호를 입력해주세요" />
         <div class="eyes">
           <i class="fa-regular fa-eye-slash"></i>
         </div>
       </div>
-      <button class="button">로그인</button>
+      <p class="invalid-pw">비밀번호를 8자 이상 입력해주세요.</p>
+
+      
+
+      <button class="login-button" disabled>로그인</button>
 
       <div class="social-login">
         <span class="social-login-text">간편 로그인하기</span>
@@ -63,5 +73,6 @@
       <p class="first-panda-market">판다마켓이 처음이신가요? <a href="/signup">회원가입</a></p>
     </div>
   </section>
+  <script src="script.js"></script>
 </body>
 </html>
